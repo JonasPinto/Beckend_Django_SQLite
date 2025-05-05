@@ -1,5 +1,5 @@
 from django.urls import path
-from django import index, contato
+from .views import index, contato
 
 urlpatterns = [
     path('', index),
